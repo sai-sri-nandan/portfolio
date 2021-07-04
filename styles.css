@@ -1,0 +1,215 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+.container-fluid{
+  padding: 10px 100px 70px;
+}
+
+.dark-background{
+  background-color: #8A3FFC;
+}
+
+.section-heading{
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 0;
+  margin: 0;
+  font-size: 2.5rem;
+  font-family: 'Concert One', cursive;
+}
+
+.section-tagline{
+  text-align: center;
+  font-size: 1.2rem;
+  color: #A0A0A0;
+  margin-bottom: 50px;
+}
+
+.button{
+  margin: 20px;
+}
+
+.description{
+  color: #A0A0A0;
+  font-size: 1.3rem;
+}
+
+/* ------------Nav Bar------------- */
+.navbar-brand{
+  font-size: 1.7rem;
+}
+
+.nav-link{
+  padding: 0 15px;
+  font-size: 1.2rem;
+}
+
+/* ------------Section Title------------- */
+.title-headline{
+  margin-top: 170px;
+  padding-left: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title-intro{
+  color: #A9A9A9;
+  padding-left: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title-image{
+  width: 100%;
+}
+
+.title-img-div{
+  text-align: center;
+}
+/* ------------Section About------------- */
+
+.about-img-div{
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+.about-text-div{
+  padding: 0 100px 60px 0;
+  text-align: justify;
+}
+
+.about-image{
+  width: 55%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-row{
+  text-align: center;
+}
+
+.about-icon{
+  color: #8A3FFC;
+  font-size: 2.8rem;
+  margin: 15px;
+}
+
+/* ------------Section Education------------- */
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -12px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  margin-left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  margin-left: 50%;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -12px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+  text-align: center;
+}
+
+#education .section-heading{
+  color: #fff;
+}
+
+.education-image{
+  width: 20%;
+  float: left;
+}
+
+.education-collapse{
+  background-color: #8A3FFC;
+  color: #fff;
+}
+
+/* ------------Section Projects------------- */
+.carousel-item{
+  height: 450px;
+}
+.carousel-item .img{
+  height: 450px;
+}
+
+/* ------------Section Contact-Me------------- */
+.contact-codechef-button{
+  border: solid 1px #000000;
+}
+
+#contact-me .section-heading{
+  padding: 0;
+}
+
+.contact-card{
+  height: 150px;
+  text-align: center;
+}
+/* ------------Section Footer------------- */
+#footer{
+  text-align: center;
+}
+
+.footer-text{
+  color: #fff;
+  margin: 15px;
+  font-size: 1.2rem;
+}
+
+.footer-copyright{
+  margin: 15px;
+}
+
+#footer .container-fluid{
+  padding-bottom: 20px;
+}
