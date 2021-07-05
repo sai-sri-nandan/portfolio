@@ -225,12 +225,18 @@ body{
 .container-fluid{
   padding: 10px 40px 30px;
 }
+
 body{
   text-align: center;
 }
 
+html{
+  font-size: 24px;
+}
+
 .title-headline{
   margin-top: 40px;
+  font-size:
 }
 
 .about-text-div{
@@ -254,6 +260,11 @@ body{
 .education-collapse
 {
   padding: 3px;
+}
+
+.nav-item a{
+  font-size: 3rem;
+  margin: 10px;
 }
 
 }
