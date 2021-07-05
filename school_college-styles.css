@@ -79,3 +79,25 @@ body{
 #footer .container-fluid{
   padding: 15px;
 }
+
+/* -----------Media Queries------------- */
+
+@media (max-width: 990px) {
+
+.container-fluid{
+  padding: 10px 40px 30px;
+}
+
+body{
+  text-align: center;
+}
+
+.title-button{
+  display: none;
+}
+
+ul{
+  text-align: justify;
+}
+
+}
