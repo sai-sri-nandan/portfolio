@@ -196,7 +196,8 @@ body{
 }
 
 .contact-card{
-  height: 150px;
+  min-height: 150px;
+  height: auto;
   text-align: center;
 }
 /* ------------Section Footer------------- */
@@ -234,9 +235,17 @@ html{
   font-size: 24px;
 }
 
+.nav-item a{
+  font-size: 3rem;
+  margin: 10px;
+}
+
+.navbar-toggler-icon{
+  font-size: 1.5rem;
+}
+
 .title-headline{
-  margin-top: 40px;
-  font-size:
+  margin-top: 240px;
 }
 
 .about-text-div{
@@ -257,14 +266,8 @@ html{
   padding: 10px;
 }
 
-.education-collapse
-{
+.education-collapse{
   padding: 3px;
-}
-
-.nav-item a{
-  font-size: 3rem;
-  margin: 10px;
 }
 
 }
