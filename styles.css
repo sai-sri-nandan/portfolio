@@ -221,10 +221,10 @@ body{
 
 /* -----------Media Queries------------ */
 
-@media (max-width: 990px) {
+@media (max-width: 992px) {
 
 .container-fluid{
-  padding: 10px 40px 30px;
+  padding: 10px 10px 30px;
 }
 
 body{
@@ -232,24 +232,24 @@ body{
 }
 
 html{
-  font-size: 24px;
+  font-size: 1.4rem;
 }
 
 .nav-item a{
-  font-size: 3rem;
+  font-size: 1.5rem;
   margin: 10px;
 }
 
 .navbar-toggler-icon{
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .title-headline{
-  margin-top: 240px;
+  margin-top: 5vh;
 }
 
 .about-text-div{
-  padding: 0 80px;
+  padding: 0 5px;
   text-align: center;
 }
 
