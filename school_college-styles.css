@@ -20,6 +20,10 @@ body{
   font-size: 1.2rem;
 }
 
+.navbar-nav {
+  text-align: center;
+}
+
 /* ------------Title------------- */
 .title-button{
   margin: 15px 0 0 500px;
