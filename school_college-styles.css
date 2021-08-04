@@ -85,7 +85,7 @@ body{
 @media (max-width: 990px) {
 
 .container-fluid{
-  padding: 10px 40px 30px;
+  padding: 10px 10px 30px;
 }
 
 body{
@@ -97,12 +97,12 @@ html{
 }
 
 .nav-item a{
-  font-size: 3rem;
+  font-size: 1.5rem;
   margin: 10px;
 }
 
 .navbar-toggler-icon{
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .title-button{
